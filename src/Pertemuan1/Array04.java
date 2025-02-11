@@ -11,34 +11,6 @@ public class Array04 {
         System.out.println("Program Menghitung IP Semester");
         System.out.println("======================");
 
-        // System.out.print("Masukkan Nilai Angka untuk MK Pancasila: ");
-        // int mkPancasila = sc.nextInt();
-
-        // System.out.print("Masukkan Nilai Angka untuk MK Konsep Teknologi Informasi:
-        // ");
-        // int mkKTI = sc.nextInt();
-
-        // System.out.print("Masukkan Nilai Angka untuk MK Critical Thinking and Problem
-        // Solving: ");
-        // int mkCTPS = sc.nextInt();
-
-        // System.out.print("Masukkan Nilai Angka untuk MK Matematika Dasar: ");
-        // int mkMatDas = sc.nextInt();
-
-        // System.out.print("Masukkan Nilai Angka untuk MK Bahasa Inggris: ");
-        // int mkBhsIng = sc.nextInt();
-
-        // System.out.print("Masukkan Nilai Angka untuk MK Dasar Pemrograman: ");
-        // int mkDaspro = sc.nextInt();
-
-        // System.out.print("Masukkan Nilai Angka untuk MK Praktikum Dasar Pemrograman:
-        // ");
-        // int mkPrakDaspro = sc.nextInt();
-
-        // System.out.print("Masukkan Nilai Angka untuk MK Keselamatan dan Kesehatan
-        // kerja: ");
-        // int mkK3 = sc.nextInt();
-
         double ipResult, totalBobot = 0;
         int totalSks = 0;
 
@@ -93,7 +65,7 @@ public class Array04 {
                 dataSKS[i][3] = "1.00";
             } else {
                 dataSKS[i][2] = "X";
-                dataSKS[i][3] = "X";
+                dataSKS[i][3] = "0.00";
             }
 
             totalBobot += (Integer.parseInt(dataSKS[i][4]) * Double.parseDouble(dataSKS[i][3]));
