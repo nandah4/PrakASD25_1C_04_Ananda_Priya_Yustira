@@ -15,13 +15,15 @@ public class Perulangan04 {
             lastDigit += 10;
         }
 
-        for (int i = 1; i < lastDigit; i++) {
+        for (int i = 1; i <= lastDigit; i++) {
             if (i == 6 || i == 10) {
                 continue;
-            } else if (i % 2 != 0) {
-                System.out.print("*");
+            }
+
+            if (i % 2 != 0) {
+                System.out.print("*" + " ");
             } else {
-                System.out.print(i);
+                System.out.print(i + " ");
             }
         }
 
