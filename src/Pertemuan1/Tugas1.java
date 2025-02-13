@@ -22,13 +22,11 @@ public class Tugas1 {
     }
 
     static String searchCity(char menu, char[] codePlates, char[][] listCities) {
-
         for (int i = 0; i < codePlates.length; i++) {
             if (menu == codePlates[i]) {
                 return new String(listCities[i]);
             }
         }
-
         return "Tidak ditemukan";
     }
 

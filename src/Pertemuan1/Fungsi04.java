@@ -12,9 +12,7 @@ public class Fungsi04 {
         for (int i = 0; i < args.length; i++) {
             double totalPendapatan = 0;
             for (int j = 1; j < args[0].length; j++) {
-
                 totalPendapatan += (Integer.parseInt(args[i][j]) * hargaTanaman[j - 1]);
-
             }
             System.out.println(args[i][0] + " Total pendapatan Rp." + totalPendapatan);
         }
@@ -32,6 +30,8 @@ public class Fungsi04 {
             }
         }
 
+        System.out.println("-----------------------------------------------------");
+        System.out.println("Hasil Stock Royal Garden 4");
         System.out.println("Stok berkurang: Aglonema -1, Keladi -2, Alocasia -0, dan Mawar -5");
 
         System.out.printf("%-20s", " ");
@@ -41,20 +41,24 @@ public class Fungsi04 {
         System.out.println();
 
         for (int i = 0; i < args.length; i++) {
-            System.out.printf("%-20s", args[i][0]);
-            for (int j = 1; j < args[i].length; j++) {
-                System.out.printf("%-15s", args[i][j]);
+            if (i == 3) {
+                System.out.printf("%-20s", args[3][0]);
+                for (int j = 1; j < args[i].length; j++) {
+
+                    System.out.printf("%-15s", args[3][j]);
+                }
+
+                System.out.println();
             }
-            System.out.println();
         }
     }
 
     public static void main(String[] args) {
         String[][] inventoryRoyalGarden = {
-                { "RoyalGarden1", "10", "5", "15", "7" },
-                { "RoyalGarden2", "6", "11", "9", "12" },
-                { "RoyalGarden3", "2", "10", "10", "5" },
-                { "RoyalGarden4", "5", "7", "12", "9" },
+                { "Royal Garden 1", "10", "5", "15", "7" },
+                { "Royal Garden 2", "6", "11", "9", "12" },
+                { "Royal Garden 3", "2", "10", "10", "5" },
+                { "Royal Garden 4", "5", "7", "12", "9" },
         };
 
         while (true) {
