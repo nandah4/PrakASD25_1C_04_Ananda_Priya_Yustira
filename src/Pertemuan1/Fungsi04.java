@@ -19,8 +19,6 @@ public class Fungsi04 {
     }
 
     static void showStock(String[][] args) {
-        System.out.println("== Jumlah Stock Cabang Royal Garden ==");
-
         String[] flowersName = { "Aglonema", "Keladi", "Alocasia", "Mawar" };
         int[] stockReduction = { 1, 2, 0, 5 };
 
