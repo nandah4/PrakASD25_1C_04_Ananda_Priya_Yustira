@@ -17,5 +17,7 @@ public class MahasiswaMain04 {
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
 
+        Mahasiswa04 mhsNanda04 = new Mahasiswa04("Ananda Priya Yustira", "244107020131", 4.0, "TI 1C");
+        mhsNanda04.tampilkanInformasi();
     }
 }

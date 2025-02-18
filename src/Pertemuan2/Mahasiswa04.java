@@ -4,6 +4,9 @@ public class Mahasiswa04 {
     String nama, nim, kelas;
     double ipk;
 
+    public Mahasiswa04() {
+    }
+
     public Mahasiswa04(String nm, String nim, double ipk, String kls) {
         nama = nm;
         this.nim = nim;
