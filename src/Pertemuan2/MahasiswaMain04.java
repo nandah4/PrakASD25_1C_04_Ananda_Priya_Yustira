@@ -10,7 +10,7 @@ public class MahasiswaMain04 {
 
         mhs1.tampilkanInformasi();
         mhs1.ubahKelas("SI 2K");
-        mhs1.updateIpk(3.60);
+        mhs1.updateIpk(5.60);
         mhs1.tampilkanInformasi();
 
         Mahasiswa04 mhs2 = new Mahasiswa04("Annisas Nabila", "24410900202", 3.25, "TI 2L");
