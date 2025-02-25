@@ -4,10 +4,13 @@ import java.util.Scanner;
 
 public class MataKuliahDemo04 {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
-        MataKuliah04[] arrayOfMataKuliah = new MataKuliah04[3];
-        String kode, nama, dummy;
-        int sks, jumlahJam;
+
+        System.out.print("Masukkkan data Mata Kuliah yang ingin disimpan: ");
+        int jmlData = sc.nextInt();
+        sc.nextLine();
+        MataKuliah04[] arrayOfMataKuliah = new MataKuliah04[jmlData];
 
         for (int i = 0; i < arrayOfMataKuliah.length; i++) {
             System.out.println("Masukkan data Mata Kuliah ke-" + (i + 1));
