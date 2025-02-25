@@ -10,6 +10,14 @@ public class MataKuliah04 {
 
     MataKuliah04() {
     }
+
+    MataKuliah04(String kode, String nama, int sks, int jumlahJam) {
+        this.kode = kode;
+        this.nama = nama;
+        this.sks = sks;
+        this.jumlahJam = jumlahJam;
+    }
+
     // // Constructor 1 Parameter
     // MataKuliah04(String kode) {
     // this.kode = kode;
@@ -27,10 +35,10 @@ public class MataKuliah04 {
         sc.nextLine();
     }
 
-    MataKuliah04(String kode, String nama, int sks, int jumlahJam) {
-        this.kode = kode;
-        this.nama = nama;
-        this.sks = sks;
-        this.jumlahJam = jumlahJam;
+    void cetakInfo() {
+        System.out.println("Kode            : " + this.kode);
+        System.out.println("Nama            : " + this.nama);
+        System.out.println("SKS             : " + this.sks);
+        System.out.println("Jumlah Jam      : " + this.jumlahJam);
     }
 }
