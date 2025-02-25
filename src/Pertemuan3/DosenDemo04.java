@@ -13,13 +13,14 @@ public class DosenDemo04 {
         String dummy;
 
         Dosen04[] arrOfDosen = new Dosen04[jmlData];
+        DataDosen04 arrManageDosen04 = new DataDosen04();
 
         for (int i = 0; i < arrOfDosen.length; i++) {
             arrOfDosen[i] = new Dosen04();
             System.out.println("Masukkan Data Dosen ke-" + (i + 1));
-            System.out.print("Kode                        : ");
+            System.out.print("Kode : ");
             arrOfDosen[i].kode = sc.nextLine();
-            System.out.print("Nama                        : ");
+            System.out.print("Nama : ");
             arrOfDosen[i].nama = sc.nextLine();
             System.out.print("Jenis Kelamin (Pria/Wanita) : ");
             dummy = sc.nextLine();
@@ -30,27 +31,44 @@ public class DosenDemo04 {
                 arrOfDosen[i].jenisKelamin = false;
             }
 
-            System.out.print("Usia                        : ");
+            System.out.print("Usia : ");
             arrOfDosen[i].usia = sc.nextInt();
             sc.nextLine();
             System.out.println("-------------------------------------------");
         }
 
-        int i = 0;
-        for (Dosen04 iterable_element : arrOfDosen) {
-            System.out.println("Data Dosen ke-" + (i + 1));
-            System.out.println("Kode             : " + iterable_element.kode);
-            System.out.println("Nama             : " + iterable_element.nama);
+        while (true) {
+            System.out.println("Management Data Dosen Menu:");
+            System.out.println("1. Data Semua Dosen");
+            System.out.println("2. Jumlah Dosen per Jenis Kelamin");
+            System.out.println("3. Rerata Usia Dosen");
+            System.out.println("4. Informasi Dosen Tertua");
+            System.out.println("5. Informasi Dosen Termuda");
+            System.out.println("6. Exit");
+            int menu = sc.nextInt();
+            sc.nextLine();
 
-            if (iterable_element.jenisKelamin) {
-                System.out.println("Jenis Kelamin    : Wanita");
-            } else {
-                System.out.println("Jenis Kelamin    : Pria");
+            switch (menu) {
+                case 1:
+                    arrManageDosen04.dataSemuaDosen(arrOfDosen);
+                    break;
+                case 2:
+                    arrManageDosen04.jumlahDosenPerJenisKelamin(arrOfDosen);
+                    break;
+                case 3:
+                    arrManageDosen04.rerataUsiaDosenPerJenisKelaminDosen(arrOfDosen);
+                    break;
+                case 4:
+                    arrManageDosen04.infoDosenPalingTua(arrOfDosen);
+                    break;
+                case 5:
+                    arrManageDosen04.infoDosenPalingMuda(arrOfDosen);
+                    break;
+                default:
+                    System.out.println("Keluar Program");
+                    return;
             }
 
-            System.out.println("Usia             : " + iterable_element.usia);
-            System.out.println("-------------------------------------------");
-            i++;
         }
     }
 }
