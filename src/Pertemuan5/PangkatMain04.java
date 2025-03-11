@@ -24,7 +24,7 @@ public class PangkatMain04 {
 
         System.out.println("Hasil Pangkat Brute Force:");
         for (Pangkat04 p : png) {
-            System.out.println(p.nilai + "^" + p.pangkat + ": " + p.pangkatBF(p.nilai, p.pangkat));
+            System.out.println(p.nilai + "^" + p.pangkat + ": " + p.pangkatBF());
         }
 
         System.out.println("Hasil Pangkat DC:");
