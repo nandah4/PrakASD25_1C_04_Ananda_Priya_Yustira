@@ -1,119 +1,126 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Array04",
-            "request": "launch",
-            "mainClass": "Pertemuan1.Array04",
-            "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
-        },
-        {
-            "type": "java",
-            "name": "Fungsi04",
-            "request": "launch",
-            "mainClass": "Pertemuan1.Fungsi04",
-            "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
-        },
-        {
-            "type": "java",
-            "name": "Pemilihan04",
-            "request": "launch",
-            "mainClass": "Pertemuan1.Pemilihan04",
-            "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
-        },
-        {
-            "type": "java",
-            "name": "Perulangan04",
-            "request": "launch",
-            "mainClass": "Pertemuan1.Perulangan04",
-            "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
-        },
-        {
-            "type": "java",
-            "name": "Tugas1",
-            "request": "launch",
-            "mainClass": "Pertemuan1.Tugas1",
-            "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
-        },
-        {
-            "type": "java",
-            "name": "Tugas2",
-            "request": "launch",
-            "mainClass": "Pertemuan1.Tugas2",
-            "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
-        },
-        {
-            "type": "java",
-            "name": "Tugas3",
-            "request": "launch",
-            "mainClass": "Pertemuan1.Tugas3",
-            "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
-        },
-        {
-            "type": "java",
-            "name": "DosenMain04",
-            "request": "launch",
-            "mainClass": "Pertemuan2.DosenMain04",
-            "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
-        },
-        {
-            "type": "java",
-            "name": "MahasiswaMain04",
-            "request": "launch",
-            "mainClass": "Pertemuan2.MahasiswaMain04",
-            "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
-        },
-        {
-            "type": "java",
-            "name": "MataKuliahMain04",
-            "request": "launch",
-            "mainClass": "Pertemuan2.MataKuliahMain04",
-            "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
-        },
-        {
-            "type": "java",
-            "name": "DosenDemo04",
-            "request": "launch",
-            "mainClass": "Pertemuan3.DosenDemo04",
-            "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
-        },
-        {
-            "type": "java",
-            "name": "MahasiswaDemo04",
-            "request": "launch",
-            "mainClass": "Pertemuan3.MahasiswaDemo04",
-            "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
-        },
-        {
-            "type": "java",
-            "name": "MataKuliahDemo04",
-            "request": "launch",
-            "mainClass": "Pertemuan3.MataKuliahDemo04",
-            "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
-        },
-        {
-            "type": "java",
-            "name": "TransaksiDemo04",
-            "request": "launch",
-            "mainClass": "Pertemuan4.TransaksiDemo04",
-            "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
-        },
-        {
-            "type": "java",
-            "name": "FaktorialMain04",
-            "request": "launch",
-            "mainClass": "Pertemuan5.FaktorialMain04",
-            "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "PangkatMain04",
+      "request": "launch",
+      "mainClass": "Pertemuan5.PangkatMain04",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Array04",
+      "request": "launch",
+      "mainClass": "Pertemuan1.Array04",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
+      "name": "Fungsi04",
+      "request": "launch",
+      "mainClass": "Pertemuan1.Fungsi04",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
+      "name": "Pemilihan04",
+      "request": "launch",
+      "mainClass": "Pertemuan1.Pemilihan04",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
+      "name": "Perulangan04",
+      "request": "launch",
+      "mainClass": "Pertemuan1.Perulangan04",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
+      "name": "Tugas1",
+      "request": "launch",
+      "mainClass": "Pertemuan1.Tugas1",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
+      "name": "Tugas2",
+      "request": "launch",
+      "mainClass": "Pertemuan1.Tugas2",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
+      "name": "Tugas3",
+      "request": "launch",
+      "mainClass": "Pertemuan1.Tugas3",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
+      "name": "DosenMain04",
+      "request": "launch",
+      "mainClass": "Pertemuan2.DosenMain04",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
+      "name": "MahasiswaMain04",
+      "request": "launch",
+      "mainClass": "Pertemuan2.MahasiswaMain04",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
+      "name": "MataKuliahMain04",
+      "request": "launch",
+      "mainClass": "Pertemuan2.MataKuliahMain04",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
+      "name": "DosenDemo04",
+      "request": "launch",
+      "mainClass": "Pertemuan3.DosenDemo04",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
+      "name": "MahasiswaDemo04",
+      "request": "launch",
+      "mainClass": "Pertemuan3.MahasiswaDemo04",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
+      "name": "MataKuliahDemo04",
+      "request": "launch",
+      "mainClass": "Pertemuan3.MataKuliahDemo04",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
+      "name": "TransaksiDemo04",
+      "request": "launch",
+      "mainClass": "Pertemuan4.TransaksiDemo04",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
+      "name": "FaktorialMain04",
+      "request": "launch",
+      "mainClass": "Pertemuan5.FaktorialMain04",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    }
+  ]
 }
