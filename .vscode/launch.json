@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SumMain04",
+      "request": "launch",
+      "mainClass": "Pertemuan5.SumMain04",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
       "name": "PangkatMain04",
       "request": "launch",
       "mainClass": "Pertemuan5.PangkatMain04",
