@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NilaiMahasiswaMain",
+      "request": "launch",
+      "mainClass": "Pertemuan5.NilaiMahasiswaMain",
+      "projectName": "PrakASD25_1C_04_Ananda_2c6decdc"
+    },
+    {
+      "type": "java",
       "name": "SumMain04",
       "request": "launch",
       "mainClass": "Pertemuan5.SumMain04",
