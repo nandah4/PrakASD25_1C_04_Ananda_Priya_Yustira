@@ -19,8 +19,7 @@ public class NilaiMahasiswa {
         this.scoreUAS = scoreUAS;
     }
 
-    double findHighestScore(double arr[], int left, int right) {
-
+    public static double findHighestScore(double arr[], int left, int right) {
         if (left == right) {
             return arr[left];
         }
@@ -32,7 +31,7 @@ public class NilaiMahasiswa {
         return Math.max(leftSum, rightSum);
     }
 
-    double findLowestScore(double arr[], int left, int right) {
+    public static double findLowestScore(double arr[], int left, int right) {
         if (left == right) {
             return arr[left];
         }
@@ -44,7 +43,7 @@ public class NilaiMahasiswa {
         return Math.min(leftSum, rightSum);
     }
 
-    double avgValue(double arr[]) {
+    public static double avgValue(double arr[]) {
         double total = 0;
         double avgScore;
 

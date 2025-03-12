@@ -1,11 +1,9 @@
 package Pertemuan5;
 
-import java.util.Scanner;
-
 public class NilaiMahasiswaMain {
     public static void main(String[] args) {
         NilaiMahasiswa[] arrMhsScore = new NilaiMahasiswa[8];
-        NilaiMahasiswa objekMahasiswa = new NilaiMahasiswa();
+
         arrMhsScore[0] = new NilaiMahasiswa("Ahmad", "220101001", "2022", 78, 82);
         arrMhsScore[1] = new NilaiMahasiswa("Budi", "220101002", "2022", 85, 88);
         arrMhsScore[2] = new NilaiMahasiswa("Cindy", "220101003", "2021", 90, 87);
@@ -19,14 +17,14 @@ public class NilaiMahasiswaMain {
         double[] arrScoreUAS = new double[arrMhsScore.length];
 
         for (int i = 0; i < arrMhsScore.length; i++) {
-            arrScoreUTS[i] += arrMhsScore[i].scoreUTS;
-            arrScoreUAS[i] += arrMhsScore[i].scoreUAS;
+            arrScoreUTS[i] = arrMhsScore[i].scoreUTS;
+            arrScoreUAS[i] = arrMhsScore[i].scoreUAS;
         }
 
         System.out.println(
-                "Nilai UTS tertinggi: " + objekMahasiswa.findHighestScore(arrScoreUTS, 0, arrMhsScore.length - 1));
+                "Nilai UTS tertinggi: " + NilaiMahasiswa.findHighestScore(arrScoreUTS, 0, arrMhsScore.length - 1));
         System.out.println(
-                "Nilai UTS Terendah: " + objekMahasiswa.findLowestScore(arrScoreUAS, 0, arrMhsScore.length - 1));
-        System.out.println("Rata-rata Nilai UAS: " + objekMahasiswa.avgValue(arrScoreUAS));
+                "Nilai UTS Terendah: " + NilaiMahasiswa.findLowestScore(arrScoreUTS, 0, arrMhsScore.length - 1));
+        System.out.println("Rata-rata Nilai UAS: " + NilaiMahasiswa.avgValue(arrScoreUAS));
     }
 }
